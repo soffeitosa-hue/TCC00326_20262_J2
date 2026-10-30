@@ -1,0 +1,11 @@
+with open("nomes.txt", "w", encoding = "utf-8") as arquivos:
+    arquivos.write ("A")
+    arquivos.write ("\nB")
+    arquivos.write ("\nC")
+    arquivos.write ("\nD")
+    arquivos.write ("\nE\n")
+
+with open("nomes.txt", "r", encoding = "utf-8") as arquivos:
+    for nomes in arquivos:
+        print(nomes)
+        
